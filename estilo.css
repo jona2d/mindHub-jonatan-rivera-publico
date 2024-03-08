@@ -1,5 +1,175 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: auto;
+}
+
+header {
+    height: 15vh;
+    background-image: url('./assets/logoPortada.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;     
+    /* Ajusta la altura según sea necesario */
+    text-align: center;
+    /* Alinear contenido al centro */
+    color: white;
+    /* Color de texto para mayor legibilidad */
+}
+
+h1 {
+    color: rgb(170, 65, 105);
+    background-color: white;
+    text-align: left;
+    margin-left: 110px;
+    display: inline-block;
+
+}
+
+
+nav {
+    height: 10vh;
     margin: 0px;
     padding: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-top: 15px;
+
 }
+
+main {
+    min-height: 75vh;
+    background-color: rgb(59, 179, 59);
+    padding: 0px;
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(163, 45, 45);
+    text-align: center;
+}
+
+
+nav a {
+    display: inline-block;
+    color: brown;
+    background-color: #333;
+    color: white;
+    /* Color del texto */
+    text-decoration: none;
+    /* Quita el subrayado de los enlaces */
+    border-radius: 5px;
+    /* Añade bordes redondeados */
+}
+
+
+#contenedorTexto,#contenedorImagenesMain {
+    display: inline-block;
+    
+}
+
+#contenedorTexto{
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+#imagenDelMain1{
+    height: 150px;
+    width: 150px;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+h1:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Define la sombra */
+}
+
+#imagen-1{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#imagen-2{
+height: 150px;
+width: 150px;
+}
+
+#contenedorTextoAbout{
+    display: inline-block;
+    border-color: blueviolet;
+    border: 5px;
+    color: black;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 20%;
+}
+
+#contenedorImagenesMainAbout{
+    display: inline-block;    
+    width: auto;
+}
+
+main {
+    color: lightgray;
+}
+
+#imagen-2{
+    width: auto;
+}
+
+nav{
+    width: auto;
+    height: auto;
+}
+
+#contenedorTextoMasImagenContacto{
+    display: inline;
+}
+
+p{
+    display: inline-block;
+}
+
+#contenedorImagenContacto{
+    position: absolute;
+    margin-top: 50px;
+    
+    
+    
+}
+
+#contenedorPContacto{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    display: inline-block;
+    
+    
+}
+
+
+
+   
 

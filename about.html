@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>    
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <meta name="author" content="jonatan">
     <link rel="shortcut icon" href="./assets/logoPestania.avif" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="/estilo.css"> -->
+    <link rel="stylesheet" href="estilos2.css">
     <title>About</title>
-    
 </head>
 
-<body>
-    <div id="container-header" class="contenedor-header">
-        <header >
-            <h1>Mighty Ducks Hockey League</h1>
-            <nav>
-                <a href="./home.html">Home</a>
-                <a href="#">About MDHL</a>
-                <a href="./Contact.html">Contact</a>
-            </nav>
-            <img class="imagen-1" src="./assets/Hockey2.jpg" width="400" alt="foto de la pagina principal de about">
+<body>    
+        <h1 id="contenedor-h1">Mighty Ducks Hockey League</h1>
+
+    <!-- aqui cree un div para dividir el header -->
+
+        <!-- aqui cree un header donde van a ir incorporados el nav, la imagen principal y el titulo de la pagina -->
+        <header class="contenedor-encabezado">            
+                <nav>
+                    <a href="/home.html">Home</a>
+                    <a href="#">About MDHL</a>
+                    <a href="./Contact.html">Contact</a>
+                </nav>        
         </header>
-    </div>
 
-    <div>
-        <main>
+        
+        <main id="mainAbout">
+            <div id="ContenedorImagenesAbout">
+                <img id="imagen-1" src="./assets/logoPrincipal.png"  alt="">
+                <img id="imagen-2" src="./assets/Hockey2.jpg"  alt="foto secundaria de la pagina de About">
+            </div>
 
-            <img class="imagen-2" src="./assets/Hockey1.jpg" width="400" alt="foto secundaria de la pagina de About">
+            <div id="contenedorTextoAbout">            
+            <section>
+                <h3>MISION</h3>
+                <p>
+                    To support young athletes living Chicago's northside neighborhood, who have an interest in
+                    learning and playing soccer, with opportunities to learn and practice skills related to the game of
+                    hockey, specifically those skills around team cooperation and good sportsmanship
+                </p>
+            </section>
+            <section>
+                <h3>Vision</h3>
 
-            <br>
-
-            <br>
-
-            <h3>MISION</h3>
-            <p>
-                To support young athletes living Chicago's northside neighborhood, who have an interest in
-                learning and playing soccer, with opportunities to learn and practice skills related to the game of
-                hockey, specifically those skills around team cooperation and good sportsmanship
-            </p>
-
-            <h3>Vision</h3>
-
-            <p>
-                The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful athletes
-                through the building of character, self-discipline, and leadership.
-            </p>
-
-            <h3>General Information</h3>
-
-            <p>
-                The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
-                Chicago's northside neighborhoods an environment in which to learn and play hockey. To be a
-                member of MDHL, you must be between the ages of 4 - 12 and reside a Chicago northside
-                neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of
-                parents and previous league members
-            </p>
+                <p>
+                    The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful athletes
+                    through the building of character, self-discipline, and leadership.
+                </p>
+            </section>
+            <section>
+                <h3>General Information</h3>
+                <p>
+                    The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
+                    Chicago's northside neighborhoods an environment in which to learn and play hockey. To be a
+                    member of MDHL, you must be between the ages of 4 - 12 and reside a Chicago northside
+                    neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of
+                    parents and previous league members
+                </p>
+            </section>
+        </div>
         </main>
-    </div>
-</body>
 
+    <footer>
+        <section>
+            <h5>Todos los derechos reservados</h5>
+            <p>by: jonatan rivera</p>
+            <p>Contacto: <a href="mailto:correo@ejemplo.com">jona.2dd@gmail.com</a></p>
+        </section>
+    </footer>
+</body>
 </html>

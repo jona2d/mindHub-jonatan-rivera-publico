@@ -8,52 +8,70 @@
     <meta name="keywords" content="Mighty Ducks Hockey League, Hockey Club">
     <meta name="author" content="jonatan">
     <link rel="shortcut icon" href="./assets/logoPestania.avif" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./estilo.css"> -->
+    <link rel="stylesheet" href="./estilos2.css">
     <title>Mighty Ducks Hockey League</title>
 </head>
 
 
 
-<body>
-    <!-- aqui cree un div para dividir el header -->
-    <div>
-        <!-- aqui cree un header donde van a ir incorporados el nav, la imagen principal y el titulo de la pagina -->
-        <header class="header-clase">
-    
-            <h1>Mighty Ducks Hockey League</h1>
-            <!--  esta es la barra de navegacion -->
-            <nav>
-                <a href="#">Home</a>
-                <a href="./about.html">About MDHL</a>
-                <a href="./Contact.html">Contact</a>
-            </nav>
-    
-            <img src="./assets/logoPrincipal.png" width="600" alt="logo-principal-de-la-pagina-principal">
-        </header>
-    </div>
-
-    <div>
+<body>    
+        <h1 id="contenedor-h1">Mighty Ducks Hockey League</h1>      
+        
+        <header>            
+                <nav>                    
+                        <a href="#">Home</a>
+                        <a href="./about.html">About MDHL</a>
+                        <a href="./Contact.html">Contact</a>                    
+                </nav>          
+        </header>    
         <main>
-            <h2>Upcoming Events</h2>
+                <h2>Upcoming Events</h2>    
+                
+            <section id="cajaGlobalparaTextoEimagenes">
 
-            <img src="./assets/Hockey1.jpg" width="500" alt="imagen secundaria debajo del titulo principal">
+                
+                <aside id="contenedorImagenesMain">
+                    
+                    <img id="imagenDelMain1" src="./assets/logoPrincipal.png" width="200" height="100"
+                    alt="logo-principal-de-la-pagina-principal">
+                    
+                    
+                    <img id="imagenDelMain2" src="./assets/Hockey1.jpg" width="200" height="100"
+                    alt="imagen secundaria debajo del titulo principal">
+                    
+            </aside>
 
-            <h3>August 4</h3>
-            <p>
-                MDSL Fundraiser
-            </p>
+            <div id="contenedorTexto">
+                <h3>August 4</h3>
+                <p>
+                    MDSL Fundraiser
+                </p>
 
-            <h3>August 16</h3>
-            <p>
-                Season Kick-off: Meet the Teams
-            </p>
+                <h3>August 16</h3>
+                <p>
+                    Season Kick-off: Meet the Teams
+                </p>
 
-            <h3>September 1</h3>
-            <p>
-                First Game of the Season (Check Game Schedule for details)
-            </p>
+                <h3>September 1</h3>
+                <p>
+                    First Game of the Season (Check Game Schedule for details)
+                </p>
+
+            </div>
+        </section>
 
         </main>
-    </div>
+    
+    
+        <footer>
+            <section>
+                <h4>Todos los derechos reservados</h4>
+                <p>by: jonatan rivera</p>
+                <p>Contacto: <a href="mailto:correo@ejemplo.com">jona.2dd@gmail.com</a></p>
+            </section>
+        </footer>
+   
 
 </body>
 

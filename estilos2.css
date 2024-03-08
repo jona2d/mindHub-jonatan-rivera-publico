@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: auto; */
+}
+
+h1{
+    background-color: rgb(17, 16, 16);
+    color: rgb(253, 249, 249);
+    text-align: center;
+    
+}
+
+h1:hover{
+    text-shadow: 2px 2px 4px violet;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    display: flex;
+}
+
+nav a{
+    display: inline-block;   
+}
+a:hover{
+    color: rgb(247, 246, 248);
+}
+
+header{
+    background-color: antiquewhite;
+    height: 20vh;
+    padding: 1rem;
+    background-color: black;
+    
+}
+main{
+    /* min-height: 70vh; */
+    background-color: grey;
+    width: 100%;
+    margin: 0 auto;
+    height: calc(100vh - 10vh);
+
+    /* display flex sirve para que si tienes varios cuadros no se van a poner uno debajo del otro, sino que se van a acomodar uno al costado del otro */
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: rgb(104, 18, 112);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(65, 54, 54);
+    background-color: rgb(67, 67, 248);
+}
+h2:hover{
+    text-shadow: 2px 2px 4px violet; 
+}
+
+#contenedorTexto{
+    color: rgb(243, 11, 42);
+    margin-bottom: 200px ;
+}
+
+
+
+#contenedorImagenesMain{
+    display: inline-block;
+    flex-direction: column;
+    width: 15%;
+    
+} 
+
+#contenedorTexto{
+position: absolute;
+top: 250px;
+left: 300px;
+}
+
+#imagenDelMain2{
+    position: relative;
+    margin-top: 15px;
+    
+  
+}
+
+#imagenDelMain1{
+    margin-top: 10px;
+}
+
+#imagen-1{
+width: 150px;
+margin-bottom: 10px;
+}
+
+#imagen-2{
+width: 150px;
+top: 400px;
+}
+
+#contenedorTextoAbout section{    
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+
+#contenedorTextoAbout{    
+    padding-top: 20px;
+    
+}
+
+#ContenedorImagenesAbout{
+    display: flex;
+    flex-direction: column;
+}
+
+#cajaGlobalparaTextoEimagenes{
+    display: inline-block
+}
+
+#mainAbout{
+    display: flex;
+}
+
+#mainContacto{
+    display: flex;
+}
+
+#contenedorImagenContacto{
+    padding-top: 50px;
+    margin-right: 20px;
+ 
+}
+
+#contenedorPContacto{
+    padding-top: 80px;
+}
+
+
+#imagenDelMain1 :hover{
+    transform: scale(1.25);
+    border: solid black 4px;
+    
+}
+
+
