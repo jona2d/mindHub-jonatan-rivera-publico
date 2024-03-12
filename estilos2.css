@@ -1,24 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* outline: auto; */
 }
 
-h1{
+h1 {
     background-color: rgb(17, 16, 16);
     color: rgb(253, 249, 249);
     text-align: center;
-    
+
 }
 
-h1:hover{
+h1:hover {
     text-shadow: 2px 2px 4px violet;
 }
 
-nav{
+nav {
     position: absolute;
-    top: 40px;
+    top: 55px;
     left: 25px;
     text-decoration: none;
     display: inline-block;
@@ -26,21 +26,37 @@ nav{
     display: flex;
 }
 
-nav a{
-    display: inline-block;   
-}
-a:hover{
-    color: rgb(247, 246, 248);
+nav a {
+    display: inline-block;
+    color: brown;
+    background-color: rgb(158, 189, 67);
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px; /* Ajusta el espaciado dentro del enlace */
+    border: 1px solid transparent; /* Añade un borde transparente */
+    transition: transform 0.3s;
+    /* transform: scale(1.1); */
 }
 
-header{
-    background-color: antiquewhite;
+a:hover {
+    color: rgb(247, 246, 248);
+    transform: scale(1.2);
+}
+
+header {
     height: 20vh;
     padding: 1rem;
-    background-color: black;
-    
+    /* background-color: black; */
+    background-image: url(./assets/logoPortada.jpg);
+    opacity: .8;
+    background-size: cover;
+    background-position: center;
 }
-main{
+
+
+
+main {
     /* min-height: 70vh; */
     background-color: grey;
     width: 100%;
@@ -50,111 +66,107 @@ main{
     /* display flex sirve para que si tienes varios cuadros no se van a poner uno debajo del otro, sino que se van a acomodar uno al costado del otro */
 }
 
-footer{
+footer {
     height: 10vh;
-    background-color: black;
+    background-color: rgb(2, 6, 14);
     color: rgb(104, 18, 112);
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
-    
-
 }
 
-h2{
+h2 {
     text-align: center;
     color: rgb(65, 54, 54);
     background-color: rgb(67, 67, 248);
 }
-h2:hover{
-    text-shadow: 2px 2px 4px violet; 
+
+h2:hover {
+    text-shadow: 2px 2px 4px violet;
 }
 
-#contenedorTexto{
+#contenedorTexto {
     color: rgb(243, 11, 42);
-    margin-bottom: 200px ;
+    margin-bottom: 200px;
 }
 
 
 
-#contenedorImagenesMain{
+#contenedorImagenesMain {
     display: inline-block;
     flex-direction: column;
     width: 15%;
-    
-} 
 
-#contenedorTexto{
-position: absolute;
-top: 250px;
-left: 300px;
 }
 
-#imagenDelMain2{
+#contenedorTexto {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+#imagenDelMain2 {
     position: relative;
     margin-top: 15px;
-    
-  
+
+
 }
 
-#imagenDelMain1{
+#imagenDelMain1 {
     margin-top: 10px;
 }
 
-#imagen-1{
-width: 150px;
-margin-bottom: 10px;
+#imagen-1 {
+    width: 150px;
+    margin-bottom: 10px;
 }
 
-#imagen-2{
-width: 150px;
-top: 400px;
+#imagen-2 {
+    width: 150px;
+    top: 400px;
 }
 
-#contenedorTextoAbout section{    
+#contenedorTextoAbout section {
     padding-left: 30px;
     padding-bottom: 20px;
-    
+
 }
 
-#contenedorTextoAbout{    
+#contenedorTextoAbout {
     padding-top: 20px;
-    
+
 }
 
-#ContenedorImagenesAbout{
+#ContenedorImagenesAbout {
     display: flex;
     flex-direction: column;
 }
 
-#cajaGlobalparaTextoEimagenes{
+#cajaGlobalparaTextoEimagenes {
     display: inline-block
 }
 
-#mainAbout{
+#mainAbout {
     display: flex;
 }
 
-#mainContacto{
+#mainContacto {
     display: flex;
 }
 
-#contenedorImagenContacto{
+#contenedorImagenContacto {
     padding-top: 50px;
     margin-right: 20px;
- 
+
 }
 
-#contenedorPContacto{
+#contenedorPContacto {
     padding-top: 80px;
 }
 
 
-#imagenDelMain1 :hover{
+#imagenDelMain1 :hover {
     transform: scale(1.25);
     border: solid black 4px;
-    
+
 }
-
-

@@ -1,0 +1,123 @@
+:root {
+    --nombre1: #5356FF;
+    --nombre2: #378CE7;
+    --nombre3: #67C6E3;
+    --nombre4: #DFF5FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: solid red; */
+}
+
+
+
+main{
+    min-height: 65vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+}
+
+main p {
+    width: 100%;  
+    text-align: center; 
+}
+
+main aside {
+    max-width: 25%;
+    display: flex;
+    /* padding: 0.5rem; */
+    height: auto;
+    max-height: 98%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* align-content:space-around; */
+
+}
+
+main aside h4 {
+    margin: 0.5rem;
+    align-items: center;
+    height: 3vh;
+}
+
+main aside p {
+    display: flex;
+    padding: 0.5rem;
+}
+
+main section {
+    max-width:  71%;
+    margin: 0.5rem;
+}
+
+main section h3 {
+    width: 100%;
+    text-align: center;
+}
+
+main section ol li {
+    margin: 0.5rem;    
+}
+
+li h4 {
+    text-align: center;
+}
+
+li p {
+    text-align: justify;
+    padding: 0.5rem
+}
+
+#mainRules{
+    padding: 1rem;  
+    min-height: 75vh;
+}
+
+li {
+    padding: 0.5rem;
+    height: auto;
+}
+
+#mainRules li h4 {
+    margin: 0.5rem;
+}
+
+
+
+main section li{
+    list-style-position: inside;
+}
+
+#footerRules {
+    color: white;
+    height: 5vh
+}
+
+h3,h4{
+    background-color: #5356FF;
+    border-radius: 10px;
+}
+
+#h4rules{
+    border-radius: 0;
+}
+
+dt{
+    background-color: #5356FF;
+    border-radius: 10px;
+    text-align: center;
+}
+
