@@ -10,6 +10,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    min-height: 70vh;
+
 }
 
 #mainGameInfo aside{
@@ -89,6 +91,32 @@ tbody tr:nth-child(2n){
 tbody tr:nth-child(2n+1){
     background-color: rgb(147, 224, 145);
 }
+
+#sectionGames{
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+iframe{
+    width: 200px;
+    height: 180px;
+}
+
+#h3Gamesdate{
+    width: 100%;
+    text-align: center;
+}
+
+#articleGamesdate{
+    width: 30%;
+}
+
 
 
 

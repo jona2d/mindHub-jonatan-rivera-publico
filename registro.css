@@ -1,0 +1,98 @@
+:root {
+    --color-primario: #E1F0DA;
+    --color-secundario: #D4E7C5;
+    --color-terciario: #BFD8AF;
+    --color-cuarto: #99BC85;
+    --color-texto:
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: auto; */
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(2, 6, 14);
+    color: rgb(104, 18, 112);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#sectionRegistro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80vw;
+    align-content: center;
+    gap: 8px;
+}
+
+#sectionRegistro {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: solid black 0.2rem;
+    display: flex;
+    width: 55%;
+}
+
+h3 {
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 7px;
+}
+
+legend {
+    background-color: rgb(131, 131, 240);
+    font-size: 17px;
+    padding: 2px;
+    border-radius: 30px;
+}
+
+fieldset {
+    margin: 5px;
+}
+
+button {
+    background-color: green;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+}
+
+button:hover {
+    background-color: rgb(116, 63, 63);
+    transform: scale(1.2);
+}
+
+section:hover {
+    border-width: 3px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+#bodyregistro {
+    background-image: url(./assets/fondobody.png);
+}
+
+#mainRegistro {
+    background-image: url(./assets/fondomain.jpg);
+    background-size: cover;   
+    background-position: center;
+}
